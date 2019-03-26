@@ -10,6 +10,7 @@ def summon_captain_planet(array)
   array.map {|shout| "#{shout.capitalize}!"}
 end 
 
+def long_planeteer_calls(array)
+  true if array.length > 4
+end 
 
-#returns an array with the same number of elements that it was given
-  #capitalizes each element and adds an exclamation mark
