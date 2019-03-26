@@ -9,9 +9,9 @@ array = ["thing", "thing1"]
 def summon_captain_planet(array)
   new_array = []
   array.each do |shout|
-    new_array << shout.to_s.capitalize + "!"
+    new_array << shout.to_s + "!"
 end 
-new_array
+new_array.capitalize
 end 
 end 
 
