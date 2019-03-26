@@ -5,6 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 end
 
+array = ["thing", "thing1"]
 def summon_captain_planet(array)
   array.each do |shout|
     puts array << !
