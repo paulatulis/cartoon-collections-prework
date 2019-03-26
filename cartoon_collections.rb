@@ -7,6 +7,8 @@ end
 
 array = ["thing", "thing1"]
 def summon_captain_planet(array)
+  new_array = []
+  
   array.each do |shout|
     shout"!"
     puts array
