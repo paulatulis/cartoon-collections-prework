@@ -10,8 +10,8 @@ def summon_captain_planet(array)
   array.map {|shout| "#{shout.capitalize}!"}
 end 
 
-def long_planeteer_calls(array)
-  true if array.length > 4
-  false if array.length < 4
+def long_planeteer_calls(call)
+  true if call.length > 4
+  false elsf call.length < 4
 end 
 
