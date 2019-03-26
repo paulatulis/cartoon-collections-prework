@@ -18,3 +18,6 @@ def long_planeteer_calls(call)
 end 
 end 
 
+find_the_cheese(array)
+array.find |cheese|
+
