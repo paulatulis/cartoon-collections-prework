@@ -8,7 +8,6 @@ end
 array = ["thing", "thing1"]
 def summon_captain_planet(array)
   array.map {|shout| "#{shout.capitalize}!"}
-    new_array << shout.to_s + "!"
 end 
 
 
