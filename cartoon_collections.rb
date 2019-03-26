@@ -5,5 +5,6 @@ def roll_call_dwarves(dwarves)
 end
 end
 
-def summon_captain_planet
+def summon_captain_planet(array)
+  #returns an array with the same number of elements that it was given
 end 
