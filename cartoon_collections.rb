@@ -20,6 +20,6 @@ end
 
 def find_the_cheese(array)
 array.find do |x|
-x.cheese?
+x = cheese
 end 
 end 
