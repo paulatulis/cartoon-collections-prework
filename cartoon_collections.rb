@@ -13,4 +13,4 @@ def summon_captain_planet(array)
 end 
 puts array
 end 
-end 
+
