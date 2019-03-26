@@ -11,7 +11,7 @@ def summon_captain_planet(array)
   array.each do |shout|
     new_array << shout.to_s + "!"
 end 
-new_array.capitalize
+new_array.uppercase
 end 
 end 
 
