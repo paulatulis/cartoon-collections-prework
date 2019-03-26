@@ -7,10 +7,10 @@ end
 
 array = ["thing", "thing1"]
 def summon_captain_planet(array)
-  new_array = []
   array.each do |shout|
-    puts shout"!"
+    puts shout + "!"
 end 
+puts array
 end 
 
 #returns an array with the same number of elements that it was given
