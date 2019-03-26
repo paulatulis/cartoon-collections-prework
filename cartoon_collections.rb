@@ -9,8 +9,8 @@ array = ["thing", "thing1"]
 def summon_captain_planet(array)
   new_array = []
   array.map do |shout|
-    shout + "!"
-    new_array << shout + "!"
+    shout + "!" = shouting
+    new_array << shouting
 end 
 puts new_array
 end 
