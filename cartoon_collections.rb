@@ -18,6 +18,7 @@ def long_planeteer_calls(call)
 end 
 end 
 
+cheeses = []
 def find_the_cheese(array)
 array.find do |x|
 x = cheese
