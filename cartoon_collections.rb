@@ -8,13 +8,14 @@ end
 array = ["thing", "thing1"]
 def summon_captain_planet(array)
   new_array = []
-  array.map do |shout|
-    shout + "!" = shouting
-    new_array << shouting
+  array.each do |shout|
+    new_array << shout.to_s + "!"
 end 
-puts new_array
+new_array
 end 
 end 
+
+
 
 #returns an array with the same number of elements that it was given
   #capitalizes each element and adds an exclamation mark
