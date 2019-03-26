@@ -7,14 +7,15 @@ end
 
 array = ["thing", "thing1"]
 def summon_captain_planet(array)
-  new_array = []
-  array.each do |shout|
+  array.map {|shout| "#{shout}!"}.uppercase
     new_array << shout.to_s + "!"
 end 
 new_array.uppercase
 end 
 end 
-
+def exclaim
+  @array.map{|e| "#{e}!"}
+end
 
 
 #returns an array with the same number of elements that it was given
