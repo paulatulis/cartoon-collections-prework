@@ -14,6 +14,7 @@ def summon_captain_planet(array)
 end 
 puts new_array
 end 
+end 
 
 #returns an array with the same number of elements that it was given
   #capitalizes each element and adds an exclamation mark
